@@ -1916,7 +1916,7 @@ const Footer = () => {
             Created By
             <i class="fa-solid fa-heart"></i>
             <a href="https://www.linkedin.com/in/chetannada/" target="_blank">
-                Chetan Nada
+                Akriti Mittal
             </a>
             <i class="fa-solid fa-copyright"></i>
             {year}
