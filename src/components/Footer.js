@@ -7,7 +7,7 @@ export default Footer = () => {
             <a href={LINKEDIN_URL} target="_blank">
                 Akriti Mittal
             </a>
-            <i class="fa-solid fa-copyright"></i>
+            <i className="fa-solid fa-copyright"></i>
             {new Date().getFullYear()}
             <strong>
                 Food<span>Fire</span>

@@ -33,10 +33,10 @@ const Body = () => {
     }, []);
 
     // use searchData function and set condition if data is empty show error message
-    const searchData = useCallback(searchText => {
-        if (searchText) {
+    const searchData = useCallback(searchValue => {
+        if (searchValue) {
             const resFilterData = allRestaurants.filter((restaurant) =>
-                restaurant?.info?.name.toLowerCase().includes(searchText.toLowerCase())
+                restaurant?.info?.name.toLowerCase().includes(searchValue.toLowerCase())
             );
             setFilteredRestaurants(resFilterData);
             setErrorMessage("");
